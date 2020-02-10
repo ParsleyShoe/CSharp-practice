@@ -1,0 +1,11 @@
+C:\repos\InClassAssignmentSol\InClassAssignment\obj\Debug\netcoreapp3.1\InClassAssignment.csprojAssemblyReference.cache
+C:\repos\InClassAssignmentSol\InClassAssignment\obj\Debug\netcoreapp3.1\InClassAssignment.AssemblyInfoInputs.cache
+C:\repos\InClassAssignmentSol\InClassAssignment\obj\Debug\netcoreapp3.1\InClassAssignment.AssemblyInfo.cs
+C:\repos\InClassAssignmentSol\InClassAssignment\bin\Debug\netcoreapp3.1\InClassAssignment.exe
+C:\repos\InClassAssignmentSol\InClassAssignment\bin\Debug\netcoreapp3.1\InClassAssignment.deps.json
+C:\repos\InClassAssignmentSol\InClassAssignment\bin\Debug\netcoreapp3.1\InClassAssignment.runtimeconfig.json
+C:\repos\InClassAssignmentSol\InClassAssignment\bin\Debug\netcoreapp3.1\InClassAssignment.runtimeconfig.dev.json
+C:\repos\InClassAssignmentSol\InClassAssignment\bin\Debug\netcoreapp3.1\InClassAssignment.dll
+C:\repos\InClassAssignmentSol\InClassAssignment\bin\Debug\netcoreapp3.1\InClassAssignment.pdb
+C:\repos\InClassAssignmentSol\InClassAssignment\obj\Debug\netcoreapp3.1\InClassAssignment.dll
+C:\repos\InClassAssignmentSol\InClassAssignment\obj\Debug\netcoreapp3.1\InClassAssignment.pdb
