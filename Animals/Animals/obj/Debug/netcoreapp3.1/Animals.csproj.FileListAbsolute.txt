@@ -1,0 +1,14 @@
+C:\repos\CSharp\Animals\Animals\bin\Debug\netcoreapp3.1\Animals.exe
+C:\repos\CSharp\Animals\Animals\bin\Debug\netcoreapp3.1\Animals.deps.json
+C:\repos\CSharp\Animals\Animals\bin\Debug\netcoreapp3.1\Animals.runtimeconfig.json
+C:\repos\CSharp\Animals\Animals\bin\Debug\netcoreapp3.1\Animals.runtimeconfig.dev.json
+C:\repos\CSharp\Animals\Animals\bin\Debug\netcoreapp3.1\Animals.dll
+C:\repos\CSharp\Animals\Animals\bin\Debug\netcoreapp3.1\Animals.pdb
+C:\repos\CSharp\Animals\Animals\bin\Debug\netcoreapp3.1\AnimalLibrary.dll
+C:\repos\CSharp\Animals\Animals\bin\Debug\netcoreapp3.1\AnimalLibrary.pdb
+C:\repos\CSharp\Animals\Animals\obj\Debug\netcoreapp3.1\Animals.csprojAssemblyReference.cache
+C:\repos\CSharp\Animals\Animals\obj\Debug\netcoreapp3.1\Animals.AssemblyInfoInputs.cache
+C:\repos\CSharp\Animals\Animals\obj\Debug\netcoreapp3.1\Animals.AssemblyInfo.cs
+C:\repos\CSharp\Animals\Animals\obj\Debug\netcoreapp3.1\Animals.csproj.CopyComplete
+C:\repos\CSharp\Animals\Animals\obj\Debug\netcoreapp3.1\Animals.dll
+C:\repos\CSharp\Animals\Animals\obj\Debug\netcoreapp3.1\Animals.pdb

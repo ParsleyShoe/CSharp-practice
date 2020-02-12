@@ -1,0 +1,8 @@
+C:\repos\CSharp\Animals\AnimalLibrary\bin\Debug\netcoreapp3.1\AnimalLibrary.deps.json
+C:\repos\CSharp\Animals\AnimalLibrary\bin\Debug\netcoreapp3.1\AnimalLibrary.dll
+C:\repos\CSharp\Animals\AnimalLibrary\bin\Debug\netcoreapp3.1\AnimalLibrary.pdb
+C:\repos\CSharp\Animals\AnimalLibrary\obj\Debug\netcoreapp3.1\AnimalLibrary.csprojAssemblyReference.cache
+C:\repos\CSharp\Animals\AnimalLibrary\obj\Debug\netcoreapp3.1\AnimalLibrary.AssemblyInfoInputs.cache
+C:\repos\CSharp\Animals\AnimalLibrary\obj\Debug\netcoreapp3.1\AnimalLibrary.AssemblyInfo.cs
+C:\repos\CSharp\Animals\AnimalLibrary\obj\Debug\netcoreapp3.1\AnimalLibrary.dll
+C:\repos\CSharp\Animals\AnimalLibrary\obj\Debug\netcoreapp3.1\AnimalLibrary.pdb

@@ -1,0 +1,11 @@
+C:\repos\CSharp\TipCalculator\TipCalculator\obj\Debug\netcoreapp3.1\TipCalculator.csprojAssemblyReference.cache
+C:\repos\CSharp\TipCalculator\TipCalculator\obj\Debug\netcoreapp3.1\TipCalculator.AssemblyInfoInputs.cache
+C:\repos\CSharp\TipCalculator\TipCalculator\obj\Debug\netcoreapp3.1\TipCalculator.AssemblyInfo.cs
+C:\repos\CSharp\TipCalculator\TipCalculator\bin\Debug\netcoreapp3.1\TipCalculator.exe
+C:\repos\CSharp\TipCalculator\TipCalculator\bin\Debug\netcoreapp3.1\TipCalculator.deps.json
+C:\repos\CSharp\TipCalculator\TipCalculator\bin\Debug\netcoreapp3.1\TipCalculator.runtimeconfig.json
+C:\repos\CSharp\TipCalculator\TipCalculator\bin\Debug\netcoreapp3.1\TipCalculator.runtimeconfig.dev.json
+C:\repos\CSharp\TipCalculator\TipCalculator\bin\Debug\netcoreapp3.1\TipCalculator.dll
+C:\repos\CSharp\TipCalculator\TipCalculator\bin\Debug\netcoreapp3.1\TipCalculator.pdb
+C:\repos\CSharp\TipCalculator\TipCalculator\obj\Debug\netcoreapp3.1\TipCalculator.dll
+C:\repos\CSharp\TipCalculator\TipCalculator\obj\Debug\netcoreapp3.1\TipCalculator.pdb

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Animals/1.0.0": {
+        "dependencies": {
+          "AnimalLibrary": "1.0.0"
+        },
+        "runtime": {
+          "Animals.dll": {}
+        }
+      },
+      "AnimalLibrary/1.0.0": {
+        "runtime": {
+          "AnimalLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Animals/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AnimalLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
