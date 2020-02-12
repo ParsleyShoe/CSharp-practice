@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\GenericCollections\\GenericCollections\\GenericCollections.csproj",
+      "projectUniqueName": "C:\\repos\\CSharp\\GenericCollections\\GenericCollections\\GenericCollections.csproj",
       "projectName": "GenericCollections",
-      "projectPath": "C:\\repos\\GenericCollections\\GenericCollections\\GenericCollections.csproj",
+      "projectPath": "C:\\repos\\CSharp\\GenericCollections\\GenericCollections\\GenericCollections.csproj",
       "packagesPath": "C:\\Users\\MAX-Student\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\GenericCollections\\GenericCollections\\obj\\",
+      "outputPath": "C:\\repos\\CSharp\\GenericCollections\\GenericCollections\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

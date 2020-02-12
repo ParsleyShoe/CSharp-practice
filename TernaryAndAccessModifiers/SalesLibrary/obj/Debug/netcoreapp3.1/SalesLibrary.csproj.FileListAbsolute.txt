@@ -1,0 +1,8 @@
+C:\repos\CSharp\TernaryAndAccessModifiers\SalesLibrary\obj\Debug\netcoreapp3.1\SalesLibrary.AssemblyInfoInputs.cache
+C:\repos\CSharp\TernaryAndAccessModifiers\SalesLibrary\obj\Debug\netcoreapp3.1\SalesLibrary.AssemblyInfo.cs
+C:\repos\CSharp\TernaryAndAccessModifiers\SalesLibrary\bin\Debug\netcoreapp3.1\SalesLibrary.deps.json
+C:\repos\CSharp\TernaryAndAccessModifiers\SalesLibrary\bin\Debug\netcoreapp3.1\SalesLibrary.dll
+C:\repos\CSharp\TernaryAndAccessModifiers\SalesLibrary\bin\Debug\netcoreapp3.1\SalesLibrary.pdb
+C:\repos\CSharp\TernaryAndAccessModifiers\SalesLibrary\obj\Debug\netcoreapp3.1\SalesLibrary.dll
+C:\repos\CSharp\TernaryAndAccessModifiers\SalesLibrary\obj\Debug\netcoreapp3.1\SalesLibrary.pdb
+C:\repos\CSharp\TernaryAndAccessModifiers\SalesLibrary\obj\Debug\netcoreapp3.1\SalesLibrary.csprojAssemblyReference.cache

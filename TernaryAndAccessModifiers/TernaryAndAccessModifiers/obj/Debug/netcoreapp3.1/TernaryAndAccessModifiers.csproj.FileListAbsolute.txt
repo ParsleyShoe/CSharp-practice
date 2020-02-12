@@ -1,0 +1,14 @@
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\bin\Debug\netcoreapp3.1\TernaryAndAccessModifiers.exe
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\bin\Debug\netcoreapp3.1\TernaryAndAccessModifiers.deps.json
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\bin\Debug\netcoreapp3.1\TernaryAndAccessModifiers.runtimeconfig.json
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\bin\Debug\netcoreapp3.1\TernaryAndAccessModifiers.runtimeconfig.dev.json
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\bin\Debug\netcoreapp3.1\TernaryAndAccessModifiers.dll
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\bin\Debug\netcoreapp3.1\TernaryAndAccessModifiers.pdb
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\obj\Debug\netcoreapp3.1\TernaryAndAccessModifiers.csprojAssemblyReference.cache
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\obj\Debug\netcoreapp3.1\TernaryAndAccessModifiers.AssemblyInfoInputs.cache
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\obj\Debug\netcoreapp3.1\TernaryAndAccessModifiers.AssemblyInfo.cs
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\obj\Debug\netcoreapp3.1\TernaryAndAccessModifiers.dll
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\obj\Debug\netcoreapp3.1\TernaryAndAccessModifiers.pdb
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\bin\Debug\netcoreapp3.1\SalesLibrary.dll
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\bin\Debug\netcoreapp3.1\SalesLibrary.pdb
+C:\repos\CSharp\TernaryAndAccessModifiers\TernaryAndAccessModifiers\obj\Debug\netcoreapp3.1\TernaryAndAccessModifiers.csproj.CopyComplete

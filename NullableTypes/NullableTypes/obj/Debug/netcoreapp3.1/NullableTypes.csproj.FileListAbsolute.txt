@@ -1,0 +1,11 @@
+C:\repos\CSharp\NullableTypes\NullableTypes\bin\Debug\netcoreapp3.1\NullableTypes.exe
+C:\repos\CSharp\NullableTypes\NullableTypes\bin\Debug\netcoreapp3.1\NullableTypes.deps.json
+C:\repos\CSharp\NullableTypes\NullableTypes\bin\Debug\netcoreapp3.1\NullableTypes.runtimeconfig.json
+C:\repos\CSharp\NullableTypes\NullableTypes\bin\Debug\netcoreapp3.1\NullableTypes.runtimeconfig.dev.json
+C:\repos\CSharp\NullableTypes\NullableTypes\bin\Debug\netcoreapp3.1\NullableTypes.dll
+C:\repos\CSharp\NullableTypes\NullableTypes\bin\Debug\netcoreapp3.1\NullableTypes.pdb
+C:\repos\CSharp\NullableTypes\NullableTypes\obj\Debug\netcoreapp3.1\NullableTypes.csprojAssemblyReference.cache
+C:\repos\CSharp\NullableTypes\NullableTypes\obj\Debug\netcoreapp3.1\NullableTypes.AssemblyInfoInputs.cache
+C:\repos\CSharp\NullableTypes\NullableTypes\obj\Debug\netcoreapp3.1\NullableTypes.AssemblyInfo.cs
+C:\repos\CSharp\NullableTypes\NullableTypes\obj\Debug\netcoreapp3.1\NullableTypes.dll
+C:\repos\CSharp\NullableTypes\NullableTypes\obj\Debug\netcoreapp3.1\NullableTypes.pdb

@@ -1,0 +1,11 @@
+C:\repos\CSharp\PigDice\PigDice\bin\Debug\netcoreapp3.1\PigDice.exe
+C:\repos\CSharp\PigDice\PigDice\bin\Debug\netcoreapp3.1\PigDice.deps.json
+C:\repos\CSharp\PigDice\PigDice\bin\Debug\netcoreapp3.1\PigDice.runtimeconfig.json
+C:\repos\CSharp\PigDice\PigDice\bin\Debug\netcoreapp3.1\PigDice.runtimeconfig.dev.json
+C:\repos\CSharp\PigDice\PigDice\bin\Debug\netcoreapp3.1\PigDice.dll
+C:\repos\CSharp\PigDice\PigDice\bin\Debug\netcoreapp3.1\PigDice.pdb
+C:\repos\CSharp\PigDice\PigDice\obj\Debug\netcoreapp3.1\PigDice.csprojAssemblyReference.cache
+C:\repos\CSharp\PigDice\PigDice\obj\Debug\netcoreapp3.1\PigDice.AssemblyInfoInputs.cache
+C:\repos\CSharp\PigDice\PigDice\obj\Debug\netcoreapp3.1\PigDice.AssemblyInfo.cs
+C:\repos\CSharp\PigDice\PigDice\obj\Debug\netcoreapp3.1\PigDice.dll
+C:\repos\CSharp\PigDice\PigDice\obj\Debug\netcoreapp3.1\PigDice.pdb
