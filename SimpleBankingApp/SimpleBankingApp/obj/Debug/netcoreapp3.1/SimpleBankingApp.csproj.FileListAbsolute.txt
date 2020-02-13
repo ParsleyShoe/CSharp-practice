@@ -1,0 +1,14 @@
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\bin\Debug\netcoreapp3.1\SimpleBankingApp.exe
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\bin\Debug\netcoreapp3.1\SimpleBankingApp.deps.json
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\bin\Debug\netcoreapp3.1\SimpleBankingApp.runtimeconfig.json
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\bin\Debug\netcoreapp3.1\SimpleBankingApp.runtimeconfig.dev.json
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\bin\Debug\netcoreapp3.1\SimpleBankingApp.dll
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\bin\Debug\netcoreapp3.1\SimpleBankingApp.pdb
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\bin\Debug\netcoreapp3.1\BankingLibrary.dll
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\bin\Debug\netcoreapp3.1\BankingLibrary.pdb
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\obj\Debug\netcoreapp3.1\SimpleBankingApp.csprojAssemblyReference.cache
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\obj\Debug\netcoreapp3.1\SimpleBankingApp.AssemblyInfoInputs.cache
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\obj\Debug\netcoreapp3.1\SimpleBankingApp.AssemblyInfo.cs
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\obj\Debug\netcoreapp3.1\SimpleBankingApp.csproj.CopyComplete
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\obj\Debug\netcoreapp3.1\SimpleBankingApp.dll
+C:\repos\CSharp\SimpleBankingApp\SimpleBankingApp\obj\Debug\netcoreapp3.1\SimpleBankingApp.pdb

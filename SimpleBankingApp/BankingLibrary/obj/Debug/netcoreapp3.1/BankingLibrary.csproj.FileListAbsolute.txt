@@ -1,0 +1,8 @@
+C:\repos\CSharp\SimpleBankingApp\BankingLibrary\bin\Debug\netcoreapp3.1\BankingLibrary.deps.json
+C:\repos\CSharp\SimpleBankingApp\BankingLibrary\bin\Debug\netcoreapp3.1\BankingLibrary.dll
+C:\repos\CSharp\SimpleBankingApp\BankingLibrary\bin\Debug\netcoreapp3.1\BankingLibrary.pdb
+C:\repos\CSharp\SimpleBankingApp\BankingLibrary\obj\Debug\netcoreapp3.1\BankingLibrary.csprojAssemblyReference.cache
+C:\repos\CSharp\SimpleBankingApp\BankingLibrary\obj\Debug\netcoreapp3.1\BankingLibrary.AssemblyInfoInputs.cache
+C:\repos\CSharp\SimpleBankingApp\BankingLibrary\obj\Debug\netcoreapp3.1\BankingLibrary.AssemblyInfo.cs
+C:\repos\CSharp\SimpleBankingApp\BankingLibrary\obj\Debug\netcoreapp3.1\BankingLibrary.dll
+C:\repos\CSharp\SimpleBankingApp\BankingLibrary\obj\Debug\netcoreapp3.1\BankingLibrary.pdb
