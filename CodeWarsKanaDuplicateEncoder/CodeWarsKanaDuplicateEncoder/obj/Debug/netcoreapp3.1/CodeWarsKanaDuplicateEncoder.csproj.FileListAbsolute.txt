@@ -1,0 +1,11 @@
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\bin\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.exe
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\bin\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.deps.json
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\bin\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.runtimeconfig.json
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\bin\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.runtimeconfig.dev.json
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\bin\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.dll
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\bin\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.pdb
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\obj\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.csprojAssemblyReference.cache
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\obj\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.AssemblyInfoInputs.cache
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\obj\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.AssemblyInfo.cs
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\obj\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.dll
+C:\repos\CSharp\CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder\obj\Debug\netcoreapp3.1\CodeWarsKanaDuplicateEncoder.pdb

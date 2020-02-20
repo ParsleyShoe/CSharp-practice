@@ -6,8 +6,8 @@ namespace TipCalculator {
     class Item {
         public int Quantity;
         public string Description;
-        public double Price;
-        public Item(int quant, string description, double price) {
+        public decimal Price;
+        public Item(int quant, string description, decimal price) {
             Description = description;
             Price = price;
             Quantity = quant;

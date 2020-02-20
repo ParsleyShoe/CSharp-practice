@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsKanaDuplicateEncoder", "CodeWarsKanaDuplicateEncoder\CodeWarsKanaDuplicateEncoder.csproj", "{4382B917-DB5C-4E7A-8686-427CDCF8DB62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4382B917-DB5C-4E7A-8686-427CDCF8DB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4382B917-DB5C-4E7A-8686-427CDCF8DB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4382B917-DB5C-4E7A-8686-427CDCF8DB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4382B917-DB5C-4E7A-8686-427CDCF8DB62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB628D2E-C128-4942-888E-BF80FAB26D1B}
+	EndGlobalSection
+EndGlobal

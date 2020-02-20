@@ -1,0 +1,11 @@
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\obj\Debug\netcoreapp3.1\PracticeUsingComposition.csprojAssemblyReference.cache
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\obj\Debug\netcoreapp3.1\PracticeUsingComposition.AssemblyInfoInputs.cache
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\obj\Debug\netcoreapp3.1\PracticeUsingComposition.AssemblyInfo.cs
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\bin\Debug\netcoreapp3.1\PracticeUsingComposition.exe
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\bin\Debug\netcoreapp3.1\PracticeUsingComposition.deps.json
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\bin\Debug\netcoreapp3.1\PracticeUsingComposition.runtimeconfig.json
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\bin\Debug\netcoreapp3.1\PracticeUsingComposition.runtimeconfig.dev.json
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\bin\Debug\netcoreapp3.1\PracticeUsingComposition.dll
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\bin\Debug\netcoreapp3.1\PracticeUsingComposition.pdb
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\obj\Debug\netcoreapp3.1\PracticeUsingComposition.dll
+C:\repos\CSharp\PracticeUsingComposition\PracticeUsingComposition\obj\Debug\netcoreapp3.1\PracticeUsingComposition.pdb

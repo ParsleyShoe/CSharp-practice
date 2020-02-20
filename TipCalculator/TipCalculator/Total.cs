@@ -4,23 +4,23 @@ using System.Text;
 
 namespace TipCalculator {
     class Total {
-        public double TaxRate = 1.07;
-        public double AfterTax;
-        public double TipPercentage = 0.15;
-        public double GrandTotalWithTip;
-        public Total(List<Item> list, double tip) {
-            var sum = 0.0;
+        public decimal TaxRate = 0.07m;
+        public decimal AfterTax;
+        public decimal TipPercentage = 0.15m;
+        public decimal GrandTotalWithTip;
+        public Total(List<Item> list, decimal tip) {
+            var sum = 0.00m;
             foreach (var item in list) {
                 sum += (item.Price * item.Quantity);
             }
-            AfterTax = sum * TaxRate;
+            AfterTax = sum + (sum * TaxRate);
             TipPercentage = tip;
             GrandTotalWithTip = AfterTax + (AfterTax * TipPercentage);
         }
         public void GrandTotal() {
-            Console.WriteLine($"Your subtotal (after tax) is ${Math.Round(AfterTax, 2)}.\n" +
-                $"If you would like to add a {TipPercentage * 100}% tip, " +
-                $"your grand total would be ${Math.Round(GrandTotalWithTip, 2)}!\n");
+            Console.WriteLine($"Your subtotal (after tax) is {AfterTax.ToString("C")}.\n" +
+                $"If you would like to add a {(TipPercentage).ToString("P")} tip, " +
+                $"your grand total would be {GrandTotalWithTip.ToString("C")}!\n");
         }
     }
 }

@@ -1,0 +1,8 @@
+C:\repos\CSharp\PracticeWithSQL\SQLLibrary\bin\Debug\netcoreapp3.1\SQLLibrary.deps.json
+C:\repos\CSharp\PracticeWithSQL\SQLLibrary\bin\Debug\netcoreapp3.1\SQLLibrary.dll
+C:\repos\CSharp\PracticeWithSQL\SQLLibrary\obj\Debug\netcoreapp3.1\SQLLibrary.csprojAssemblyReference.cache
+C:\repos\CSharp\PracticeWithSQL\SQLLibrary\obj\Debug\netcoreapp3.1\SQLLibrary.AssemblyInfoInputs.cache
+C:\repos\CSharp\PracticeWithSQL\SQLLibrary\obj\Debug\netcoreapp3.1\SQLLibrary.AssemblyInfo.cs
+C:\repos\CSharp\PracticeWithSQL\SQLLibrary\bin\Debug\netcoreapp3.1\SQLLibrary.pdb
+C:\repos\CSharp\PracticeWithSQL\SQLLibrary\obj\Debug\netcoreapp3.1\SQLLibrary.dll
+C:\repos\CSharp\PracticeWithSQL\SQLLibrary\obj\Debug\netcoreapp3.1\SQLLibrary.pdb
