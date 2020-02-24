@@ -1,0 +1,10 @@
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.deps.json
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.csprojAssemblyReference.cache
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.AssemblyInfoInputs.cache
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.AssemblyInfo.cs
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.runtimeconfig.json
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.runtimeconfig.dev.json
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.dll
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.pdb

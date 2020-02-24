@@ -1,0 +1,10 @@
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\EFLibrary.deps.json
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\EFLibrary.runtimeconfig.json
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\EFLibrary.runtimeconfig.dev.json
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\EFLibrary.dll
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\bin\Debug\netcoreapp3.1\EFLibrary.pdb
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\EFLibrary.AssemblyInfoInputs.cache
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\EFLibrary.AssemblyInfo.cs
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\EFLibrary.dll
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\EFLibrary.pdb
+C:\repos\CSharp\CSharpAndEntityFramework\ClassLibrary1\obj\Debug\netcoreapp3.1\EFLibrary.csprojAssemblyReference.cache

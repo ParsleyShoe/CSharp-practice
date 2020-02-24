@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAndEntityFramework", "CSharpAndEntityFramework\CSharpAndEntityFramework.csproj", "{C8FF9EB2-BCD4-45E9-AC36-290D6D5F335E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpEFConsole", "CSharpAndEntityFramework\CSharpEFConsole.csproj", "{C8FF9EB2-BCD4-45E9-AC36-290D6D5F335E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{D0F53C92-2560-4914-BB1A-222C5F931595}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFLibrary", "ClassLibrary1\EFLibrary.csproj", "{D0F53C92-2560-4914-BB1A-222C5F931595}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
