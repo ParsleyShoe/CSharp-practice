@@ -75,7 +75,7 @@ namespace SQLLibrary {
             //                    $"{student.SAT}, {student.GPA}, {student.MajorId});";
                                   // writing SQL statements with interpolation is bad practice
             var betterSQLstatement = "INSERT INTO Student (Id, Firstname, Lastname, SAT, GPA, MajorId) " +
-                                     $"VALUES (@Id, @Firstname, @Lastname, @SAT, @GPA, @MajorId);";
+                                     "VALUES (@Id, @Firstname, @Lastname, @SAT, @GPA, @MajorId);";
             return ChangeStudentData(betterSQLstatement, student, "Insert");
         }
         public static bool UpdateStudent(Student student) {

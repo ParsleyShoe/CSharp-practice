@@ -1,0 +1,11 @@
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\bin\Debug\netcoreapp3.1\LinqAndExtensionMethods.exe
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\bin\Debug\netcoreapp3.1\LinqAndExtensionMethods.deps.json
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\bin\Debug\netcoreapp3.1\LinqAndExtensionMethods.runtimeconfig.json
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\bin\Debug\netcoreapp3.1\LinqAndExtensionMethods.runtimeconfig.dev.json
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\bin\Debug\netcoreapp3.1\LinqAndExtensionMethods.dll
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\bin\Debug\netcoreapp3.1\LinqAndExtensionMethods.pdb
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\obj\Debug\netcoreapp3.1\LinqAndExtensionMethods.csprojAssemblyReference.cache
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\obj\Debug\netcoreapp3.1\LinqAndExtensionMethods.AssemblyInfoInputs.cache
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\obj\Debug\netcoreapp3.1\LinqAndExtensionMethods.AssemblyInfo.cs
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\obj\Debug\netcoreapp3.1\LinqAndExtensionMethods.dll
+C:\repos\CSharp\LinqAndExtensionMethods\LinqAndExtensionMethods\obj\Debug\netcoreapp3.1\LinqAndExtensionMethods.pdb
