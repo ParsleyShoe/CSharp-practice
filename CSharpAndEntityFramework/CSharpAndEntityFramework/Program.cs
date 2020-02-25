@@ -8,18 +8,61 @@ namespace CSharpEFConsole {
     class Program {
         static void Main(string[] args) {
             var context = new AppDbContext();
+
+            foreach (var orderId in context.Orders.Select(x => x.Id).ToArray()) {
+                RecalcOrderAmount(orderId, context);
+            }
+            //AddOrderLine(context);
+            //GetOrderlines(context);
             //AddCustomer(context);
             //GetCustomerByPK(context);
             //UpdateCustomer(context);
             //DeleteCustomer(context);
             //AddFiveNewOrders(context);
             //UpdateCustomerSales(context);
-            GetAllCustomers(context);
+            //GetAllCustomers(context);
 
-            //var 
-            Console.WriteLine($"The average price is {context.Products.Average(x => x.Price)}"); // average price of any single product
-            var top2 = context.Products.Where(x => x.Id > 7); // all products where Id is greater than seven
-            var activeCusts = context.Customers.Where(x => x.Active); // all active customers
+            //Console.WriteLine($"The average price is {context.Products.Average(x => x.Price)}"); // average price of any single product
+            //var top2 = context.Products.Where(x => x.Id > 7); // all products where Id is greater than seven
+            //var activeCusts = context.Customers.Where(x => x.Active); // all active customers
+        }
+
+        //static void AddOrders(AppDbContext context) {
+
+        //}
+
+        //static void TallyOrderLines(AppDbContext context) {
+        //    var order = context.Orders.SingleOrDefault(o => o.Description == "Blue eraser");
+        //    var orderlines = context.OrderLines.ToList();
+        //    decimal sum = 0;
+        //    orderlines.ForEach(line => sum += (line.Product.Price * line.Quantity));
+        //    order.Amount = sum;
+        //}
+        static void RecalcOrderAmount(int orderId, AppDbContext context) {
+            var order = context.Orders.Find(orderId);
+            var total = context.OrderLines.Sum(line => line.Product.Price * line.Quantity);
+            order.Amount = total;
+            var rowsAffected = context.SaveChanges();
+            if (rowsAffected != 1) throw new Exception("Amount update failed.");
+        }
+
+        static void GetOrderlines(AppDbContext context) {
+            var orderlines = context.OrderLines.ToList();
+            orderlines.ForEach(line => Console.WriteLine($"{line.Quantity} | {line.Order.Description} | {line.Product.Name}\n"));
+        }
+        static void AddOrderLine (AppDbContext context) {
+            var order = context.Orders.SingleOrDefault(o => o.Description == "Yellow eraser");
+            var product = context.Products.SingleOrDefault(p => p.Code == "ECHO-DOT");
+            var product2 = context.Products.SingleOrDefault(p => p.Code == "FIRE-STICK");
+            var orderline = new OrderLine {
+                Id = 0, ProductId = product.Id, OrderId = order.Id, Quantity = 3
+            };
+            var orderline2 = new OrderLine {
+                Id = 0, ProductId = product2.Id, OrderId = order.Id, Quantity = 3
+            };
+            context.OrderLines.AddRange(orderline, orderline2);
+            var rowsAffected = context.SaveChanges();
+            if (rowsAffected != 1 && rowsAffected != 2) throw new Exception("Order line insert failed.");
         }
 
         static void DeleteCustomer(AppDbContext context) {
@@ -77,31 +120,26 @@ namespace CSharpEFConsole {
         }
         static void AddFiveNewOrders(AppDbContext context) {
             var order1 = new Order {
-                //Id = 1,
                 Description = "Blue eraser",
                 Amount = 0.99m,
                 CustomerId = 1
             };
             var order2 = new Order {
-                //Id = 2,
                 Description = "Yellow eraser",
                 Amount = 0.99m,
                 CustomerId = 1
             };
             var order3 = new Order {
-                //Id = 3,
                 Description = "Purple eraser",
                 Amount = 0.99m,
                 CustomerId = 1
             };
             var order4 = new Order {
-                //Id = 4,
                 Description = "Green eraser",
                 Amount = 0.99m,
                 CustomerId = 1
             };
             var order5 = new Order {
-                //Id = 5,
                 Description = "Orange eraser",
                 Amount = 0.99m,
                 CustomerId = 1
