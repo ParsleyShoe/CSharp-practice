@@ -15,5 +15,9 @@ namespace PRSLibrary.Models {
         public bool IsAdmin { get; set; } = false;
 
         public virtual List<Request> Requests { get; set; }
+
+        public override string ToString() {
+            return $"{Firstname} is logged in with their username {Username}.";
+        }
     }
 }
