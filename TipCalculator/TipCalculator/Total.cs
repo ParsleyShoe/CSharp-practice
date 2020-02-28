@@ -13,9 +13,9 @@ namespace TipCalculator {
             foreach (var item in list) {
                 sum += (item.Price * item.Quantity);
             }
-            AfterTax = sum + (sum * TaxRate);
+            AfterTax = sum + sum * TaxRate;
             TipPercentage = tip;
-            GrandTotalWithTip = AfterTax + (AfterTax * TipPercentage);
+            GrandTotalWithTip = AfterTax + AfterTax * TipPercentage;
         }
         public void GrandTotal() {
             Console.WriteLine($"Your subtotal (after tax) is {AfterTax.ToString("C")}.\n" +

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using PRSLibrary.Models;
+using PRSLibrary.Controllers;
 using Microsoft.EntityFrameworkCore;
 
 namespace PRSLibrary {
@@ -11,6 +12,8 @@ namespace PRSLibrary {
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Request> Requests { get; set; }
         public virtual DbSet<RequestLine> RequestLines { get; set; }
+        public virtual RequestController RequestController { get; set; }
+        public virtual UserController UserController { get; set; }
 
         public PRSDbContext() { }
         public PRSDbContext(DbContextOptions<PRSDbContext> options) : base(options) { }
@@ -33,8 +36,8 @@ namespace PRSLibrary {
                 e.Property(x => x.Lastname).HasMaxLength(30).IsRequired();
                 e.Property(x => x.Phone).HasMaxLength(12);
                 e.Property(x => x.Email).HasMaxLength(255);
-                e.Property(x => x.IsAdmin).IsRequired();
-                e.Property(x => x.IsReviewer).IsRequired();
+                e.Property(x => x.IsAdmin);
+                e.Property(x => x.IsReviewer);
             });
             model.Entity<Vendor>(e => {
                 e.ToTable("Vendors");
@@ -78,7 +81,7 @@ namespace PRSLibrary {
                 e.HasKey(x => x.Id);
                 e.HasOne(x => x.Request).WithMany(x => x.RequestLines).HasForeignKey(x => x.RequestId).OnDelete(DeleteBehavior.Restrict);
                 e.HasOne(x => x.Product).WithMany(x => x.RequestLines).HasForeignKey(x => x.ProductId).OnDelete(DeleteBehavior.Restrict);
-                e.Property(x => x.Quantity).IsRequired();
+                e.Property(x => x.Quantity);
                 //e.Property(x => x.RequestId);
                 //e.Property(x => x.ProductId);
             });

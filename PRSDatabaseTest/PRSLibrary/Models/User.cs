@@ -16,6 +16,7 @@ namespace PRSLibrary.Models {
 
         public virtual List<Request> Requests { get; set; }
 
+        //only for testing purposes
         public override string ToString() {
             return $"{Firstname} is logged in with their username {Username}.";
         }
