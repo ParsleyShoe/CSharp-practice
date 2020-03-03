@@ -7,7 +7,7 @@ using PRSLibrary.Models;
 
 namespace PRSLibrary.Controllers {
     public class ProductController {
-        private static PRSDbContext context = new PRSDbContext();
+        private static readonly PRSDbContext context = new PRSDbContext();
 
         private static void AttemptToSave() {
             try {

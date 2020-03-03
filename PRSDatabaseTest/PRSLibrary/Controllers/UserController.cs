@@ -7,11 +7,10 @@ using PRSLibrary.Models;
 
 namespace PRSLibrary.Controllers {
     public class UserController {
-        private static PRSDbContext context = new PRSDbContext();
+        private static readonly PRSDbContext context = new PRSDbContext();
 
         public static User Login(string username, string password) {
-            var user = context.Users.Where(x => x.Username == username && x.Password == password).Single();
-            return user ?? null;
+            return context.Users.SingleOrDefault(u => u.Username == username && u.Password == password);
         }
 
         private static void AttemptToSave() {

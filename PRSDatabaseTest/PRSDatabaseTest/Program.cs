@@ -12,15 +12,15 @@ namespace PRSDatabaseTest {
 
             Console.WriteLine("Hello.");
 
-            //var rltest = new RequestLine() {
-            //    Id = 4,
-            //    RequestId = 2,
-            //    ProductId = 4,
-            //    Quantity = 2
-            //};
+            var update = new RequestLine() {
+                Id = 7,
+                RequestId = 1,
+                ProductId = 7,
+                Quantity = 5
+            };
 
-            //RequestLinesController.Update(4, rltest);
-            
+            RequestLinesController.Update(7, update);
+
             Console.WriteLine("Goodbye.");
 
             #region logins

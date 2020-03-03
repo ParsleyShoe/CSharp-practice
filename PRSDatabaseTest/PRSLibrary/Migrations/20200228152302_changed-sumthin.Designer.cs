@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PRSLibrary;
 
 namespace PRSLibrary.Migrations
 {
     [DbContext(typeof(PRSDbContext))]
-    partial class PRSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200228152302_changed-sumthin")]
+    partial class changedsumthin
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -86,10 +88,9 @@ namespace PRSLibrary.Migrations
                         .HasColumnType("nvarchar(80)")
                         .HasMaxLength(80);
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(8)")
-                        .HasMaxLength(8);
+                    b.Property<int>("Status")
+                        .HasColumnType("int")
+                        .HasMaxLength(10);
 
                     b.Property<decimal>("Total")
                         .HasColumnType("decimal(11, 2)");

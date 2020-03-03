@@ -7,10 +7,9 @@ using PRSLibrary.Models;
 
 namespace PRSLibrary.Controllers {
     public class RequestController {
-        private static PRSDbContext context = new PRSDbContext();
+        private static readonly PRSDbContext context = new PRSDbContext();
 
-        private static bool ChangeStatus(int requestid, string change) {
-            var request = context.Requests.Find(requestid);
+        private static bool ChangeStatus(Request request, string change) {
             if (request == null) {
                 return false;
             }
@@ -18,14 +17,18 @@ namespace PRSLibrary.Controllers {
             return true;
         }
 
-        public static bool Approve(int requestid) {
-            return ChangeStatus(requestid, "APPROVED");
+        public static bool Approve(Request request) {
+            return ChangeStatus(request, "APPROVED");
         }
-        public static bool Review(int requestid) {
-            return ChangeStatus(requestid, "REVIEW");
+        public static bool Review(Request request) {
+            if (request.Total <= 50) {
+                return ChangeStatus(request, "APPROVED");
+            } else {
+                return ChangeStatus(request, "REVIEW");
+            }
         }
-        public static bool Reject(int requestid) {
-            return ChangeStatus(requestid, "REJECTED");
+        public static bool Reject(Request request) {
+            return ChangeStatus(request, "REJECTED");
         }
 
         public static List<Request> GetReview(int userid) {

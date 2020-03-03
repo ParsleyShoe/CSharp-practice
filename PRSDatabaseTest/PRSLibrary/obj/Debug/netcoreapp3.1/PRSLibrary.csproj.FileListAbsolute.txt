@@ -1,6 +1,5 @@
 C:\repos\CSharp\PRSDatabaseTest\PRSLibrary\bin\Debug\netcoreapp3.1\PRSLibrary.deps.json
 C:\repos\CSharp\PRSDatabaseTest\PRSLibrary\bin\Debug\netcoreapp3.1\PRSLibrary.dll
-C:\repos\CSharp\PRSDatabaseTest\PRSLibrary\obj\Debug\netcoreapp3.1\PRSLibrary.csprojAssemblyReference.cache
 C:\repos\CSharp\PRSDatabaseTest\PRSLibrary\obj\Debug\netcoreapp3.1\PRSLibrary.AssemblyInfoInputs.cache
 C:\repos\CSharp\PRSDatabaseTest\PRSLibrary\obj\Debug\netcoreapp3.1\PRSLibrary.AssemblyInfo.cs
 C:\repos\CSharp\PRSDatabaseTest\PRSLibrary\bin\Debug\netcoreapp3.1\PRSLibrary.runtimeconfig.json

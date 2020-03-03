@@ -12,8 +12,6 @@ namespace PRSLibrary {
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Request> Requests { get; set; }
         public virtual DbSet<RequestLine> RequestLines { get; set; }
-        public virtual RequestController RequestController { get; set; }
-        public virtual UserController UserController { get; set; }
 
         public PRSDbContext() { }
         public PRSDbContext(DbContextOptions<PRSDbContext> options) : base(options) { }
@@ -62,7 +60,6 @@ namespace PRSLibrary {
                 e.Property(x => x.Unit).HasMaxLength(30).IsRequired();
                 e.Property(x => x.Photopath).HasMaxLength(255);
                 e.HasOne(x => x.Vendor).WithMany(x => x.Products).HasForeignKey(x => x.VendorId).OnDelete(DeleteBehavior.Restrict);
-                //e.Property(x => x.VendorId);
             });
             model.Entity<Request>(e => {
                 e.ToTable("Requests");
@@ -71,10 +68,9 @@ namespace PRSLibrary {
                 e.Property(x => x.Justification).HasMaxLength(80).IsRequired();
                 e.Property(x => x.RejectionReason).HasMaxLength(80);
                 e.Property(x => x.DeliveryMode).HasMaxLength(20).IsRequired();
-                e.Property(x => x.Status).HasMaxLength(10).IsRequired();
+                e.Property(x => x.Status).HasMaxLength(8).IsRequired();
                 e.Property(x => x.Total).HasColumnType("decimal(11, 2)");
                 e.HasOne(x => x.User).WithMany(x => x.Requests).HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Restrict);
-                //e.Property(x => x.UserId);
             });
             model.Entity<RequestLine>(e => {
                 e.ToTable("RequestLines");
@@ -82,8 +78,6 @@ namespace PRSLibrary {
                 e.HasOne(x => x.Request).WithMany(x => x.RequestLines).HasForeignKey(x => x.RequestId).OnDelete(DeleteBehavior.Restrict);
                 e.HasOne(x => x.Product).WithMany(x => x.RequestLines).HasForeignKey(x => x.ProductId).OnDelete(DeleteBehavior.Restrict);
                 e.Property(x => x.Quantity);
-                //e.Property(x => x.RequestId);
-                //e.Property(x => x.ProductId);
             });
         }
     }
