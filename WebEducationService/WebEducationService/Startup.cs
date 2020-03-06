@@ -19,13 +19,22 @@ namespace WebEducationService {
         }
 
         public IConfiguration Configuration { get; }
+        public readonly string DefaultCorsPolicy = "_defaultCorsPolicy";
+        public string[] AllowOrigins = { "http://localhost:4200" };
+        public string[] AllowMethods = { "GET", "POST", "PUT", "DELETE" };
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
             services.AddControllers();
-
-    services.AddDbContext<EdDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("EdDbContext")));
+            services.AddDbContext<EdDbContext>(options => {
+                options.UseLazyLoadingProxies();
+                options.UseSqlServer(Configuration.GetConnectionString("EdDbContext"));
+            });
+            services.AddCors(option =>
+                option.AddPolicy(DefaultCorsPolicy, x => 
+                    x.WithOrigins(AllowOrigins).WithMethods(AllowMethods).AllowAnyHeader()
+                )
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,14 +42,15 @@ namespace WebEducationService {
             if (env.IsDevelopment()) {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors(DefaultCorsPolicy);
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints => {
                 endpoints.MapControllers();
             });
+
+            using var scope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope();
+            scope.ServiceProvider.GetService<EdDbContext>().Database.Migrate();
         }
     }
 }

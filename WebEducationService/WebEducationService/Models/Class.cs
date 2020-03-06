@@ -5,15 +5,16 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace WebEducationService.Models {
-    public class Major {
+    public class Class {
 
         public int Id { get; set; }
         [StringLength(30)]
         [Required]
-        public string Description { get; set; }
-        public int MinSAT { get; set; }
+        public string Subject { get; set; }
+        public int Section { get; set; }
+        public int? InstructorId { get; set; }
 
-        public Major() {}
+        public virtual Instructor Instructor { get; set; }
 
     }
 }

@@ -5,6 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200305170555_init.cs" />
+    <Compile Remove="Migrations\20200305170555_init.Designer.cs" />
+    <Compile Remove="Migrations\20200305191325_added-student.cs" />
+    <Compile Remove="Migrations\20200305191325_added-student.Designer.cs" />
+    <Compile Remove="Migrations\20200305191655_added-student.cs" />
+    <Compile Remove="Migrations\20200305191655_added-student.Designer.cs" />
+    <Compile Remove="Migrations\20200305191831_added-student.cs" />
+    <Compile Remove="Migrations\20200305191831_added-student.Designer.cs" />
+    <Compile Remove="Migrations\20200305202703_updated-student-midnull.cs" />
+    <Compile Remove="Migrations\20200305202703_updated-student-midnull.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="microsoft.entityframeworkcore.proxies" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1" />
     <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="3.1.2" />

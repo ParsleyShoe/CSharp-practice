@@ -5,15 +5,17 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace WebEducationService.Models {
-    public class Major {
+    public class Instructor {
 
         public int Id { get; set; }
         [StringLength(30)]
         [Required]
-        public string Description { get; set; }
-        public int MinSAT { get; set; }
-
-        public Major() {}
+        public string Firstname { get; set; }
+        [StringLength(30)]
+        [Required]
+        public string Lastname { get; set; }
+        public int YearsExperience { get; set; }
+        public bool IsTenured { get; set; }
 
     }
 }
