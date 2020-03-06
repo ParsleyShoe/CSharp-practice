@@ -12,6 +12,15 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using WebEducationService.Data;
 
+/* create project with ASP.NET Core 3.1, select API, uncheck HTTPS
+ * install packages => microsoft.entityframeworkcore.(tools, proxies, sqlserver(, system.configuration.configurationmanager))
+ * create Models folder, create model(s) with proper properties
+ * add controller(s) to Controllers, select API Controller with EF, select Model class and context, ensure Context is created/generated
+ * modify connection string in appsettings.json => (server=localhost\\sqlexpress;database=[DATABASE];trusted_connection=true;)
+ * modify ConfigureServices (add UseLazyLoadingProxies() to AddDbContext() body, and add AddCors())
+ * add properties AllowOrigins, AllowMethods, and DefaultCorsPolicy
+ * (bootcamp optional) add scope variable for foreign(?) migrations */
+
 namespace WebEducationService {
     public class Startup {
         public Startup(IConfiguration configuration) {
@@ -31,7 +40,7 @@ namespace WebEducationService {
                 options.UseSqlServer(Configuration.GetConnectionString("EdDbContext"));
             });
             services.AddCors(option =>
-                option.AddPolicy(DefaultCorsPolicy, x => 
+                option.AddPolicy(DefaultCorsPolicy, x =>
                     x.WithOrigins(AllowOrigins).WithMethods(AllowMethods).AllowAnyHeader()
                 )
             );

@@ -13,6 +13,7 @@ namespace WebEducationService.Data {
         public DbSet<Student> Students { get; set; }
         public DbSet<Class> Classes { get; set; }
         public DbSet<Instructor> Instructors { get; set; }
+        public DbSet<Instructor> Instructor { get; set; }
         public DbSet<StudentClassRel> StudentClassRels { get; set; }
         public DbSet<MajorClassRel> MajorClassRels { get; set; }
 
@@ -22,7 +23,5 @@ namespace WebEducationService.Data {
                 e.Property(x => x.GPA).HasColumnType("decimal(9,2)");
             });
         }
-
-        public DbSet<WebEducationService.Models.Instructor> Instructor { get; set; }
     }
 }

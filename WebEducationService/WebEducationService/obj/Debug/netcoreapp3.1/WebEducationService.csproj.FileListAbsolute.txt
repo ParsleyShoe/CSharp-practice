@@ -7,7 +7,6 @@ C:\repos\CSharp\WebEducationService\WebEducationService\bin\Debug\netcoreapp3.1\
 C:\repos\CSharp\WebEducationService\WebEducationService\bin\Debug\netcoreapp3.1\WebEducationService.runtimeconfig.dev.json
 C:\repos\CSharp\WebEducationService\WebEducationService\bin\Debug\netcoreapp3.1\WebEducationService.dll
 C:\repos\CSharp\WebEducationService\WebEducationService\bin\Debug\netcoreapp3.1\WebEducationService.pdb
-C:\repos\CSharp\WebEducationService\WebEducationService\obj\Debug\netcoreapp3.1\WebEducationService.csprojAssemblyReference.cache
 C:\repos\CSharp\WebEducationService\WebEducationService\obj\Debug\netcoreapp3.1\staticwebassets\WebEducationService.StaticWebAssets.Manifest.cache
 C:\repos\CSharp\WebEducationService\WebEducationService\obj\Debug\netcoreapp3.1\staticwebassets\WebEducationService.StaticWebAssets.xml
 C:\repos\CSharp\WebEducationService\WebEducationService\obj\Debug\netcoreapp3.1\WebEducationService.AssemblyInfoInputs.cache
@@ -148,3 +147,4 @@ C:\repos\CSharp\WebEducationService\WebEducationService\bin\Debug\netcoreapp3.1\
 C:\repos\CSharp\WebEducationService\WebEducationService\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\repos\CSharp\WebEducationService\WebEducationService\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\repos\CSharp\WebEducationService\WebEducationService\obj\Debug\netcoreapp3.1\WebEducationService.MvcApplicationPartsAssemblyInfo.cache
+C:\repos\CSharp\WebEducationService\WebEducationService\obj\Debug\netcoreapp3.1\WebEducationService.csprojAssemblyReference.cache
